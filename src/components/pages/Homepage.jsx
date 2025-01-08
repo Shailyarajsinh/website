@@ -332,7 +332,7 @@ const Homepage = () => {
       {/* Section-5 */}
 
       {/* Repeating heading */}
-      <div className="relative overflow-hidden bg-[#17181D] py-1">
+      <div className="relative overflow-hidden bg-white py-1">
         <div className="animate-marquee whitespace-nowrap text-sm text-center text-gray-800">
           {Array(16)
             .fill("Our Office Space")
