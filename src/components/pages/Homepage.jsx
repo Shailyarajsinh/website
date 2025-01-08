@@ -6,12 +6,12 @@ import hands from "../../assets/hands.png";
 import crypytography from "../../assets/crypytography.png";
 import chain from "../../assets/chain.png";
 
-import component_1 from "../../assets/component 1.png";
-import component_2 from "../../assets/component 2.png";
-import component_3 from "../../assets/component 3.png";
-import component_4 from "../../assets/component 4.png";
-import component_5 from "../../assets/component 5.png";
-import component_6 from "../../assets/component 6.png";
+import component_1 from "../../assets/Component 1.png";
+import component_2 from "../../assets/Component 2.png";
+import component_3 from "../../assets/Component 3.png";
+import component_4 from "../../assets/Component 4.png";
+import component_5 from "../../assets/Component 5.png";
+import component_6 from "../../assets/Component 6.png";
 
 import section3_1 from "../../assets/div.s-card-icon.png";
 import section3_2 from "../../assets/div.s-card-icon (1).png";
