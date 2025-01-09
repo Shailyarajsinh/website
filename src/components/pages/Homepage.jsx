@@ -21,11 +21,11 @@ import section3_4 from "../../assets/div.s-card-icon (3).png";
 const Homepage = () => {
   return (
     <>
-      <h1 className="text-base md:text-xl lg:text-xl text-center tracking-widest pt-10 w-full bg-[#17181D] text-white ">
+      <h1 className="text-base md:text-xl lg:text-xl text-center tracking-widest pt-10 w-full bg-gradient-to-r from-[#194266] to-[#235C85] text-white ">
         Unlocking the Future of Blockchain
       </h1>
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24 container mx-auto">
-        <div className="grid grid-rows-2 gap-6 md:gap-10">
+      <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24 mx-auto">
+        <div className="grid grid-rows-2 gap-6 md:gap-10 container">
           {/* First Row */}
           <div className="row-span-1 grid grid-cols-1 md:grid-cols-4 items-center gap-6">
             <div className="col-span-3 text-left md:pr-16 lg:pr-24">
@@ -98,9 +98,8 @@ const Homepage = () => {
         </div>
       </div>
 
-
       {/* section-2 */}
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center  sm:py-16 lg:py-20 px-4 sm:px-8 md:px-20 lg:px-36">
+      <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 border border-white">
           <div
             className="col-span-1 border-white flex justify-center items-center bg-black md:bg-cover md:bg-center md:bg-black"
@@ -128,13 +127,12 @@ const Homepage = () => {
           className="hidden lg:block w-32 sm:w-40 md:w-48 lg:w-fit h-auto relative -top-20 sm:-top-24 md:-top-32 left-20 sm:left-40 md:left-64 lg:left-[32rem] active:animate-bounce"
         />
       </div>
-
       {/* section-2 */}
 
       {/* section-3 */}
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center py-10 sm:py-16 lg:py-20 px-4 sm:px-8 md:px-20 lg:x-36 ">
+      <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24 ">
 
-        <div className="bg-[#17181D] text-white pb-10">
+        <div className=" text-white pb-10">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Left Section */}
             <div className="col-span-1 py-8 md:py-16 px-8 md:px-16 lg:px-28 border border-white flex flex-col justify-center items-start">
@@ -152,84 +150,82 @@ const Homepage = () => {
                 {/* First Row */}
                 {/* <div className="">
                 </div> */}
-                  <div className=" row-span-1 grid grid-cols-1 md:grid-cols-2">
-                    <div className="col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 border-b md:border-r border-white content-center">
-                      <img
-                        src={section3_1}
-                        alt="Secure"
-                        className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
-                      />
-                      <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
-                        Unmatched Security
-                      </h1>
-                      <p className="text-base md:text-lg">
-                        We prioritize the safety of your digital assets with cutting-edge
-                        security protocols, ensuring your peace of mind in this
-                        ever-evolving digital landscape.
-                      </p>
-                    </div>
-                    <div className="col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 border-b border-white contebt-center">
-                      <img
-                        src={section3_2}
-                        alt="Secure"
-                        className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
-                      />
-                      <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
-                        Future-Proof Technology
-                      </h1>
-                      <p className="text-base md:text-lg">
-                        Our commitment to staying ahead of the curve guarantees that our
-                        solutions are equipped to adapt and thrive in the rapidly
-                        changing technological landscape.
-                      </p>
-                    </div>
+                <div className=" row-span-1 grid grid-cols-1 md:grid-cols-2">
+                  <div className="col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 border-b md:border-r border-white content-center">
+                    <img
+                      src={section3_1}
+                      alt="Secure"
+                      className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
+                    />
+                    <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
+                      Unmatched Security
+                    </h1>
+                    <p className="text-base md:text-lg">
+                      We prioritize the safety of your digital assets with cutting-edge
+                      security protocols, ensuring your peace of mind in this
+                      ever-evolving digital landscape.
+                    </p>
                   </div>
+                  <div className="col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 border-b border-white contebt-center">
+                    <img
+                      src={section3_2}
+                      alt="Secure"
+                      className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
+                    />
+                    <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
+                      Future-Proof Technology
+                    </h1>
+                    <p className="text-base md:text-lg">
+                      Our commitment to staying ahead of the curve guarantees that our
+                      solutions are equipped to adapt and thrive in the rapidly
+                      changing technological landscape.
+                    </p>
+                  </div>
+                </div>
 
                 {/* Second Row */}
                 {/* <div className="">
                 </div> */}
-                  <div className=" row-span-1 grid grid-cols-1 md:grid-cols-2">
-                    <div className=" content-center col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 md:border-r sm:border-b border-white">
-                      <img
-                        src={section3_3}
-                        alt="Secure"
-                        className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
-                      />
-                      <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
-                        Tailored for Success
-                      </h1>
-                      <p className="text-base md:text-lg">
-                        Every solution we craft is meticulously customized to meet your
-                        specific needs, ensuring seamless integration and optimal
-                        performance.
-                      </p>
-                    </div>
-                    <div className=" content-center col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16">
-                      <img
-                        src={section3_4}
-                        alt="Secure"
-                        className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
-                      />
-                      <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
-                        Global Reach, Personal Touch
-                      </h1>
-                      <p className="text-base md:text-lg">
-                        We serve clients worldwide, yet maintain a personalized approach
-                        that nurtures strong, lasting partnerships.
-                      </p>
-                    </div>
+                <div className=" row-span-1 grid grid-cols-1 md:grid-cols-2">
+                  <div className=" content-center col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16 md:border-r sm:border-b border-white">
+                    <img
+                      src={section3_3}
+                      alt="Secure"
+                      className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
+                    />
+                    <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
+                      Tailored for Success
+                    </h1>
+                    <p className="text-base md:text-lg">
+                      Every solution we craft is meticulously customized to meet your
+                      specific needs, ensuring seamless integration and optimal
+                      performance.
+                    </p>
                   </div>
+                  <div className=" content-center col-span-1 py-8 md:py-8 px-8 md:px-8 lg:px-16">
+                    <img
+                      src={section3_4}
+                      alt="Secure"
+                      className="w-30 md:w-30 h-30 md:h-30 pb-6 md:pb-10"
+                    />
+                    <h1 className="font-heading pb-4 md:pb-8 text-xl md:text-2xl text-start font-semibold">
+                      Global Reach, Personal Touch
+                    </h1>
+                    <p className="text-base md:text-lg">
+                      We serve clients worldwide, yet maintain a personalized approach
+                      that nurtures strong, lasting partnerships.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       {/* section-3 */}
 
       {/* section-4 */}
-
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center sm:py-16 md:py-20 px-4 sm:px-8 md:px-16 lg:px-36">
+      <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 border border-white gap-6 md:gap-0">
           <div className="col-span-1 py-6 sm:py-8 md:py-10 px-6 sm:px-10 md:px-20 content-center tracking-widest">
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold pb-4 sm:pb-6 md:pb-8 leading-relaxed text-start md:text-right">
@@ -258,13 +254,12 @@ const Homepage = () => {
           className="hidden lg:block w-32 sm:w-40 md:w-48 lg:w-50 h-auto relative -top-20 sm:-top-24 md:-top-32 left-20 sm:left-40 md:left-64 lg:left-[-32rem] -rotate-12"
         />
       </div>
-
       {/* section-4 */}
 
       {/* section-5 */}
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center py-10 sm:py-16 lg:py-20 px-4 sm:px-8 md:px-20 lg:x-36">
+      <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24">
 
-        <div className="bg-[#17181D] text-white">
+        <div className="bg-gradient-to-r from-[#194266] to-[#235C85] text-white">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Left Column */}
             <div className="col-span-1 py-8 sm:py-12 lg:py-16 px-6 sm:px-16 lg:px-28 border border-white flex flex-col justify-center items-start">
@@ -328,12 +323,11 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-
       {/* Section-5 */}
 
       {/* Repeating heading */}
-      <div className="relative overflow-hidden bg-white py-1">
-        <div className="animate-marquee whitespace-nowrap text-sm text-center text-gray-800">
+      <div className="relative overflow-hidden bg-white py-2">
+        <div className="animate-marquee whitespace-nowrap font-semibold text-base text-center text-gray-800">
           {Array(16)
             .fill("Our Office Space")
             .map((text, index) => (
@@ -345,58 +339,61 @@ const Homepage = () => {
             ))}
         </div>
       </div>
+      {/* Repeating heading */}
 
       {/* Office Images */}
-      <div className="bg-[#17181D] text-white flex flex-col justify-center items-center  ">
+      <div className=" bg-gradient-to-r from-[#194266] to-[#235C85] text-white flex flex-col justify-center items-center py-10 md:py-16 lg:py-20 px-4 sm:px-8 md:px-16 lg:px-24  ">
 
-        <div className="bg-[#17181D] pt-8 pb-20 relative min-h-auto overflow-hidden">
+        <div className="pb-10 relative min-h-auto overflow-hidden">
           {/* Background image container */}
           <div
-            className="relative w-full min-h-full mb-4 bg-cover bg-center"
+            className="relative w-full min-h-full mb-4 bg-black "
             style={{
               backgroundImage: window.innerWidth >= 768 ? `url(${union})` : "none",
             }}
           >
             {/* Image grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 gap-y-10 relative top-6 sm:p-4 md:p-4 w-full z-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 relative md:static sm:static top-0 sm:top-0 md:top-4 lg:top-8 sm:p-4 md:p-4 w-full z-10 gap-y-0 sm:gap-y-0 md:gap-y-10 border  border-black">
               {/* Example images */}
               <img
                 src={component_1}
                 alt="Office Space 1"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover"
+                className="w-full h-auto object-cover border  border-black grayscale"
               />
               <img
                 src={component_2}
                 alt="Office Space 2"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover grayscale"
+                className="w-full h-auto object-cover border  border-black grayscale"
                 onMouseEnter={(e) => e.target.classList.remove("grayscale")}
               />
               <img
                 src={component_3}
                 alt="Office Space 3"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover"
+                className="w-full h-auto object-cover border  border-black"
               />
               <img
                 src={component_4}
                 alt="Office Space 4"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover grayscale"
+                className="w-full h-auto object-cover border  border-black grayscale"
                 onMouseEnter={(e) => e.target.classList.remove("grayscale")}
               />
               <img
                 src={component_5}
                 alt="Office Space 5"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover"
+                className="w-full h-auto object-cover border  border-black"
               />
               <img
                 src={component_6}
                 alt="Office Space 6"
-                className="w-full sm:w-72 md:w-80 h-60 sm:h-80 md:h-96 object-cover grayscale"
+                className="w-full h-auto object-cover border  border-black grayscale"
                 onMouseEnter={(e) => e.target.classList.remove("grayscale")}
               />
             </div>
+
           </div>
         </div>
       </div>
+      {/* Office Images */}
 
     </>
   );

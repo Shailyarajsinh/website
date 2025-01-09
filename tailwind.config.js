@@ -1,20 +1,22 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// @type {import('tailwindcss').Config}
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#007BFF',
-        secondary: '#003366',
-        accent: '#FFD700',
-        greyCustom: '#D9D9D9',
+        primary: "#007BFF",
+        secondary: "#003366",
+        accent: "#FFD700",
+        greyCustom: "#D9D9D9",
       },
       fontFamily: {
-        heading:['Outfit', 'sans-serif'],
-        para:['Satoshi', 'sans-serif'],
+        heading: ["Outfit", "sans-serif"],
+        para: ["Satoshi", "sans-serif"],
       },
       keyframes: {
         marquee: {
@@ -28,5 +30,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+});

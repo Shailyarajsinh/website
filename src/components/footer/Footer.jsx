@@ -7,13 +7,13 @@ function Footer() {
     <>
 
 
-      <div class="bg-[#17181D] text-white pb-4 pt-12">
+      <div class="bg-gradient-to-r from-[#194266] to-[#235C85] text-white pb-4 pt-4">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center justify-center sm:pt-10 sm:pb-16 md:pt-10 md:pb-16  text-center">
-          <div className="md:col-span-3 relative h-40 md:h-80">
+          <div className="md:col-span-3 relative h-40 md:h-80 overflow-x-clip">
             <img
               src={image}
               alt="image"
-              className="w-32 h-32 md:w-48 md:h-48 absolute bottom-[-30px] md:bottom-[-60px] right-[-10px] md:right-[-20px]"
+              className="w-32 h-32 md:w-48 md:h-48 absolute bottom-[-30px] md:bottom-[-60px] right-[-10px] md:right-[-20px] "
             />
           </div>
 
@@ -84,10 +84,10 @@ function Footer() {
                     <path d="M32 22.9766C29.7384 22.9766 27.8984 24.8165 27.8984 27.0781C27.8984 29.3397 29.7384 31.1797 32 31.1797C34.2616 31.1797 36.1016 29.3397 36.1016 27.0781C36.1016 24.8165 34.2616 22.9766 32 22.9766ZM32 29.5391C30.643 29.5391 29.5391 28.4351 29.5391 27.0781C29.5391 25.7212 30.643 24.6172 32 24.6172C33.357 24.6172 34.4609 25.7212 34.4609 27.0781C34.4609 28.4351 33.357 29.5391 32 29.5391Z" fill="white" />
                   </svg>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Our Head Office</h1>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <p className="text-greyCustom text-sm md:text-base font-semibold">1234 Street Name, City Name, Country Name</p>
                 </div>
               </div>
@@ -110,10 +110,10 @@ function Footer() {
                     </defs>
                   </svg>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Contact Us</h1>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <p className="text-greyCustom text-sm md:text-base font-semibold">123456789</p>
                 </div>
               </div>
@@ -134,10 +134,10 @@ function Footer() {
                     </defs>
                   </svg>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Mail Us</h1>
                 </div>
-                <div className="flex px-2 row-span-1 mx-10">
+                <div className="flex ps-4 pt-4 row-span-1 mx-10">
                   <p className="text-greyCustom text-sm md:text-base font-semibold">mahidashailyaraj@gmail.com</p>
                 </div>
               </div>
@@ -149,7 +149,7 @@ function Footer() {
 
       </div>
       {/* <!-- Footer Bottom --> */}
-      <div class="pt-3 text-start  text-gray-400 text-sm bg-[#17181D]">
+      <div class="pt-3 text-start  text-gray-400 text-sm bg-gradient-to-r from-[#194266] to-[#235C85]">
         <p>Copyright © 2024. All rights reserved by Shailyarajsinh J Mahida</p>
       </div>
     </>

@@ -6,6 +6,7 @@ import Layout from './Layout'
 
 import Homepage from './components/pages/Homepage'
 import NotFound from './components/not found/NotFound'
+import Aboutus from './components/pages/Aboutus'
 
 
 const router = createBrowserRouter(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route path="/" element={<Homepage />} />
       <Route path="/home" element={<Homepage />} />
+      <Route path="/about-us" element={<Aboutus />} />
       <Route path="*" element={<NotFound/>} />
     </Route>
   )

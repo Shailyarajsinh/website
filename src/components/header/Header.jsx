@@ -13,7 +13,7 @@ export default function Example() {
 
 
   return (
-    <header className="sticky z-50 top-0 bg-[#17181D] text-white">
+    <header className="sticky z-50 top-0 bg-gradient-to-r from-[#194266] to-[#235C85] text-white">
     <nav className="max-w-screen-xl mx-auto">
       {/* Desktop and Logo */}
       <div className="flex justify-between items-center px-4 py-3 lg:py-4 lg:px-8">
@@ -69,7 +69,7 @@ export default function Example() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <ul className="lg:hidden flex flex-col items-center bg-[#17181D]">
+        <ul className="lg:hidden flex flex-col items-center bg-gradient-to-r from-[#194266] to-[#235C85]">
           {['Home', 'About Us', 'Projects', 'Blog', 'Careers', 'Contact Us'].map(
             (item, index) => (
               <li key={index} className="w-full text-center border-b border-gray-700">
