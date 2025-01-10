@@ -9,18 +9,16 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 3000;
 
-
-// enable CORS all requests
-
+// enable CORS for all origins
 app.use(cors());
 
 
 // enable CORS for specific origin
 app.use(cors(
     {
-        origin: 'http://localhost:5173'
+        origin: '*'
     }
 ));
 
