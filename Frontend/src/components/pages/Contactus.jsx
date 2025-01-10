@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function ContactUs() {
     const [formData, setFormData] = useState({
         name: '',
@@ -22,8 +23,9 @@ function ContactUs() {
 
         setStatus('Submitting...');
 
+        const url = import.meta.env.VITE_API_URL + '/send-message';
         try {
-            const response = await fetch('http://localhost:5000/send-message', {
+            const response = await fetch( url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
