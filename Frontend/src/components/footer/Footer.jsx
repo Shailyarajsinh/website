@@ -58,20 +58,27 @@ function Footer() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 md:grid-rows-12 col-span-2 w-full border border-white ">
-            <div className="grid grid-cols-4 row-span-2 justify-center items-center ">
+            <div className="grid grid-cols-6 row-span-2 justify-center items-center ">
               {/* Quick links horizontally */}
-              <a href="#" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+              <a href="/" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
                 Home
               </a>
-              <a href="#" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+              <a href="/about-us" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
                 About
               </a>
-              <a href="#" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
-                Services
+              <a href="/projects" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+                Projects
               </a>
-              <a href="#" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
-                Contact
+              <a href="/blogs" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+                Blogs
               </a>
+              <a href="/careers" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+                Careers
+              </a>
+              <a href="/contact-us" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
+                Contact us
+              </a>
+
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 row-span-10 ">
@@ -150,7 +157,9 @@ function Footer() {
       </div>
       {/* <!-- Footer Bottom --> */}
       <div class="pt-3 text-start  text-gray-400 text-sm bg-gradient-to-r from-[#194266] to-[#235C85]">
-        <p>Copyright © 2024. All rights reserved by Shailyarajsinh J Mahida</p>
+        <p>Copyright © {
+          new Date().getFullYear()
+          }. All rights reserved by Shailyarajsinh J Mahida</p>
       </div>
     </>
   )
