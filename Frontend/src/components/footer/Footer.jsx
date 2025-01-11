@@ -76,7 +76,7 @@ function Footer() {
                 Careers
               </a>
               <a href="/contact-us" className="text-white text-xs md:text-sm font-semibold col-span-1 text-center border-r border-white px-5 py-5">
-                Contact us
+                Contact
               </a>
 
             </div>
