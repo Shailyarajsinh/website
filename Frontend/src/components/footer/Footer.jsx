@@ -1,6 +1,7 @@
 import React from 'react'
 import image from '../../assets/footer.png'
 import image2 from '../../assets/footer_2.png'
+import logo from '../header/logo.jpg'
 
 function Footer() {
   return (
@@ -46,9 +47,9 @@ function Footer() {
           {/* <!-- Logo and About Section --> */}
           <div className="col-span-1 border-r border-white px-6 md:px-[117px] py-[20px]">
             <div className="mb-4">
-              <div className="bg-gray-700 h-16 w-16 flex items-center justify-center">
+              <div className="bg-white h-16 w-16 flex items-center justify-center">
                 {/* <!-- Placeholder for logo --> */}
-                <span className="text-white">Logo</span>
+                <img src={logo} alt="logo" className="h-10 w-10" />
               </div>
             </div>
             <p className="text-gray-400 text-xs md:text-sm leading-6">
@@ -95,7 +96,9 @@ function Footer() {
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Our Head Office</h1>
                 </div>
                 <div className="flex ps-4 pt-4 row-span-1 mx-10">
-                  <p className="text-greyCustom text-sm md:text-base font-semibold">1234 Street Name, City Name, Country Name</p>
+                  <p className="text-greyCustom text-sm md:text-base font-semibold">901, Samanway Silver,
+                    Mujmahuda, Akota,
+                    Vadodara 390020, Gujarat, India</p>
                 </div>
               </div>
 
@@ -121,7 +124,7 @@ function Footer() {
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Contact Us</h1>
                 </div>
                 <div className="flex ps-4 pt-4 row-span-1 mx-10">
-                  <p className="text-greyCustom text-sm md:text-base font-semibold">123456789</p>
+                  <p className="text-greyCustom text-sm md:text-base font-semibold">+91 2657964445</p>
                 </div>
               </div>
 
@@ -145,7 +148,7 @@ function Footer() {
                   <h1 className="text-greyCustom text-xl md:text-2xl font-semibold">Mail Us</h1>
                 </div>
                 <div className="flex ps-4 pt-4 row-span-1 mx-10">
-                  <p className="text-greyCustom text-sm md:text-base font-semibold">mahidashailyaraj@gmail.com</p>
+                  <p className="text-greyCustom text-sm md:text-base font-semibold">contact@ledgerlinetech.com</p>
                 </div>
               </div>
             </div>
@@ -159,7 +162,7 @@ function Footer() {
       <div class="pt-3 text-start  text-gray-400 text-sm bg-gradient-to-r from-[#194266] to-[#235C85]">
         <p>Copyright © {
           new Date().getFullYear()
-          }. All rights reserved by Shailyarajsinh J Mahida</p>
+        }. All rights reserved by Shailyarajsinh J Mahida</p>
       </div>
     </>
   )

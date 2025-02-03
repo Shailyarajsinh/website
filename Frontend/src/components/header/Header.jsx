@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-import logo from './logo.png';
+import logo from './logo.jpg';
 
 
 export default function Example() {
@@ -18,8 +18,8 @@ export default function Example() {
       {/* Desktop and Logo */}
       <div className="flex justify-between items-center px-4 py-3 lg:py-4 lg:px-8">
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-10 mr-2 animate-bounce" />
-          <span className="font-mono text-base">COMPANY NAME</span>
+          <img src={logo} alt="Logo" className="h-10 mr-2 rounded-full" />
+          <span className="font-mono text-base">LedgerLine Technologies</span>
         </div>
 
         {/* Hamburger for Mobile */}
